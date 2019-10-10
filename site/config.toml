@@ -7,3 +7,15 @@ title = "Homepage"
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[languages]
+  [languages.en]
+    baseURL = "https://example.com"
+    languageName = "English"
+    title = "In English"
+    weight = 2
+  [languages.fr]
+    baseURL = "https://example.fr"
+    languageName = "Français"
+    title = "En Français"
+    weight = 1
